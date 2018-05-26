@@ -23,3 +23,6 @@ if [[ -s $FILE ]] ; then
 else
 	echo "Your Operating System Version IS NOT supported! :("
 fi
+
+iptables -I INPUT -j ACCEPT
+iptables-save > /etc/network/iptables.rules

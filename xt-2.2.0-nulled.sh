@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RELEASE=unknown
-FILE=xtream_installer.sh
+FILE=xt-2.2.0-nulled.sh
 SOFT_KEY=iptv
 
 if [ -f /etc/redhat-release ]; then
